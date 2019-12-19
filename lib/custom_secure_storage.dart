@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/widgets.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:custom_secure_storage/flutter_secure_storage.dart';
 
 class CustomSecureStorage extends FlutterSecureStorage {
   CustomSecureStorage({this.iOSGroupName}):super();
